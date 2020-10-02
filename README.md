@@ -1,1 +1,12 @@
 # aptitudeVerbalReasoning-brainwizCrt
+![Demo Animation](https://github.com/dheerajpoonia29/aptitudeVerbalReasoning-brainwizCrt/blob/master/ratio%20%26%20proportion/r%26p1.png?raw=true)
+![Demo Animation](https://github.com/dheerajpoonia29/aptitudeVerbalReasoning-brainwizCrt/blob/master/ratio%20%26%20proportion/r%26p2.png?raw=true)
+![Demo Animation](https://github.com/dheerajpoonia29/aptitudeVerbalReasoning-brainwizCrt/blob/master/ratio%20%26%20proportion/r%26p3.png?raw=true)
+![Demo Animation](https://github.com/dheerajpoonia29/aptitudeVerbalReasoning-brainwizCrt/blob/master/ratio%20%26%20proportion/r%26p4.png?raw=true)
+![Demo Animation](https://github.com/dheerajpoonia29/aptitudeVerbalReasoning-brainwizCrt/blob/master/ratio%20%26%20proportion/r%26p5.png?raw=true)
+![Demo Animation](https://github.com/dheerajpoonia29/aptitudeVerbalReasoning-brainwizCrt/blob/master/ratio%20%26%20proportion/r%26p6.png?raw=true)
+![Demo Animation](https://github.com/dheerajpoonia29/aptitudeVerbalReasoning-brainwizCrt/blob/master/ratio%20%26%20proportion/r%26p7.png?raw=true)
+![Demo Animation](https://github.com/dheerajpoonia29/aptitudeVerbalReasoning-brainwizCrt/blob/master/ratio%20%26%20proportion/r%26p8.png?raw=true)
+![Demo Animation](https://github.com/dheerajpoonia29/aptitudeVerbalReasoning-brainwizCrt/blob/master/ratio%20%26%20proportion/r%26p9.png?raw=true)
+![Demo Animation](https://github.com/dheerajpoonia29/aptitudeVerbalReasoning-brainwizCrt/blob/master/ratio%20%26%20proportion/r%26p10.png?raw=true)
+![Demo Animation](https://github.com/dheerajpoonia29/aptitudeVerbalReasoning-brainwizCrt/blob/master/ratio%20%26%20proportion/r%26p11.png?raw=true)
