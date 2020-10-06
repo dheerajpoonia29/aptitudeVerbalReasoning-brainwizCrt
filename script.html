@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+
+
+<html>
+	<head>
+		<title>
+			Aptitude Practice
+		</title>
+
+		<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+		<meta content="utf-8" http-equiv="encoding">
+
+		<script src="https://code.jquery.com/jquery-1.12.4.min.js" >
+			console.log('jquery loaded')
+		</script>
+	</head>
+
+
+	<body onload="myQuery(17)">
+		
+		<button onclick="back()">back</button>
+
+		<button onclick="next()">next</button>
+
+		<button onclick="showAll()">show all</button>
+
+		<p id="myid">1</p>
+
+		<img src="" id='MAIN_IMAGE' alt="image not fetch" width="auto" height="auto">
+
+		<ul id="MAIN_IMAGE_2">
+		</ul>
+	</body>
+</html>
+
+
+
+<script type="text/javascript">
+	var limit;
+	var token;
+	var image_raw_url;
+	var image_code;
+	var url;
+
+	var img_cnt_field = $('#myid')
+	var img_field = document.getElementById('MAIN_IMAGE')
+
+	function myQuery(total_img_cnt) {
+
+		limit = total_img_cnt;
+
+		console.log('total image = '+limit)
+
+		token = "?token=AIBZX2JMTR7RNF6EZGJX3727QUQ4S"
+		image_raw_url = "https://raw.githubusercontent.com/dheerajpoonia29/aptitudeVerbalReasoning-brainwizCrt/master/series/number%20series/"
+		image_code = "ns"
+
+		console.log('loop end')
+
+		back()
+	}
+
+	function back() {
+		// body...
+		$(document).ready(()=>{
+			let n = Number(img_cnt_field.text());
+			n-=1;
+			img_cnt_field.text(n);
+			if(n>=1){				
+				updateImageUrl(n)
+
+				img_field.src = url
+			}
+			else{
+				img_field.src = "";
+			}			
+		})
+	}
+
+	function next() {
+		// body...
+		$(document).ready(()=>{
+			let n = Number(img_cnt_field.text());
+			n += 1
+			img_cnt_field.text(n);
+
+			if(n>=1){			
+				updateImageUrl(n)
+
+				img_field.src = url
+			}
+			else{
+				img_field.src = "";
+			}
+			
+		})
+	}
+
+	function showAll() {
+		// body...
+		updateImageUrl(0)
+		img_field.src = url
+		img_cnt_field.text(0);
+
+		for(let i=1; i<limit; i++){
+			// <img src="" id='MAIN_IMAGE_2' alt="image not fetch" width="auto" height="auto">
+			updateImageUrl(i)
+			$("#MAIN_IMAGE_2").append('<li>'+i+'<img src='+url+'></li>');		
+		}
+	}
+
+	function updateImageUrl(n) {
+		// url = image_raw_url+image_code+String(n)+'.png'+token
+		url = image_raw_url+image_code+String(n)+'.png'
+		console.log('final url = ', url)
+	}
+
+
+</script>
