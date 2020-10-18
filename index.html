@@ -111,7 +111,16 @@
 
 	function updateImageUrl(n) {
 		// url = image_raw_url+image_code+String(n)+'.png'+token
+		/*
 		url = image_raw_url+image_code+String(n)+'.png'
+		*/
+		
+		// url with 0 prefix  
+		if(n>=0 && n<=9)
+			url = image_raw_url+'0'+image_code+'.png'
+		else
+			url = image_raw_url+image_code+String(n)+'.png'
+		
 		console.log('final url = ', url)
 	}
 
